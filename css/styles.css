@@ -4,6 +4,7 @@ body{
     width: 100vw;
     margin: 0%;
     padding-left: 0;
+    padding: 0;
 }
 
 .client-button,.owner-button{
@@ -19,25 +20,31 @@ body{
     transform: translate(-50%, 50%);
 }
 
-.part1 .container .side{
+.part1,.container, .side{
     width: 100vw;
     height:100vh;
-    
+    margin: 0;
+    padding: 0;
 }
+
+
 
 
 .row{
     width: 100vw;
-    transform: translateX(-20.3%);
+    margin-right: 0; 
+     margin-left: 0;
 }
 
 
 .client-side{
     background-color: rgb(126, 189, 58);
+    padding: 10px;
 }
 
 .owner-side{
     background-color: rgb(10, 151, 10);
+    padding: 10px;
 }
 
 .form-client ,.form-owner{
@@ -84,3 +91,14 @@ body{
     background-color:darkorange;
     border-radius: 20%;
 }
+
+@media(max-width: 434px){
+    .choose{
+        width: 90px;
+    }
+    
+    .discr{
+        width: 130px;
+    }
+}
+
